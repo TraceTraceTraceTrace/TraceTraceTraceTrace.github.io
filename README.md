@@ -13,6 +13,8 @@
 
         input {
             padding: 10px;
+            width: 500px; /* Set width to 500px */
+            height: 500px; /* Set height to 500px */
             margin-right: 10px;
         }
 
