@@ -25,7 +25,7 @@
 
 <body>
     <h1>Text Processing Website</h1>
-    <label for="textInput">Enter Text:</label>
+    <label for="textInput">Paste table from Order History, start from Transaction Number and end with the last Total:</label>
     <input type="text" id="textInput" placeholder="Type something...">
     <button onclick="processText()">Process Text</button>
     <div id="output"></div>
