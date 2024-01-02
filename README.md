@@ -1,6 +1,4 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +24,6 @@
 </head>
 
 <body>
-    <h1>Text Processing Website</h1>
     <label for="textInput">Paste table from Order History, start from Transaction Number and end with the last Total:</label>
     <input type="text" id="textInput" placeholder="Type something...">
     <button onclick="processText()">Process Text</button>
