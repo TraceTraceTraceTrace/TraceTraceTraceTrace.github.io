@@ -26,6 +26,7 @@
 
 <body>
     <label for="textInput">Paste table from Order History, start from Transaction Number and end with the last Total:</label>
+    </br>
     <input type="text" id="textInput" placeholder="Type something...">
     <button onclick="processText()">Process Text</button>
     <div id="output"></div>
