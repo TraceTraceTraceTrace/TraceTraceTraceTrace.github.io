@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +9,14 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            align-items: flex-start; /* Align items to the start (top) 
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
         }
 
         input {
             padding: 10px;
-            width: 500px; /* Set width to 500px */
-            height: 500px; /* Set height to 500px */
             margin-right: 10px;
         }
 
@@ -25,8 +28,7 @@
 </head>
 
 <body>
-    <label for="textInput">Paste table from Order History, start from Transaction Number and end with the last Total:</label>
-    </br>
+    <label for="textInput">Enter Text:</label>
     <input type="text" id="textInput" placeholder="Type something...">
     <button onclick="processText()">Process Text</button>
     <div id="output"></div>
