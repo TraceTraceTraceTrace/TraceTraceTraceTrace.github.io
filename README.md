@@ -39,7 +39,12 @@
 
             let tableArray = input.Split(vbTab.ToCharArray)(2)
             // Process the input (you can replace this with your own processing logic)
-            let processedOutput = tableArray
+
+            let processedOutput = ""
+            
+            tableArray.forEach(function(element) {
+                processedOutput += element;
+            });
 
             // Display the processed output
             document.getElementById("output").innerText = processedOutput;
