@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Processing Website</title>
+    <title>GS Commission</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -29,8 +29,9 @@
 
 <body>
     <label for="textInput">Enter Text:</label>
+    <br>
     <input type="text" id="textInput" placeholder="Type something...">
-    <button onclick="processText()">Process Text</button>
+    <button onclick="processText()">Calculate</button>
     <div id="output"></div>
 
     <script>
