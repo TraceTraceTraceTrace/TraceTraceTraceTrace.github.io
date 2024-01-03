@@ -35,10 +35,11 @@
     <script>
         function processText() {
             // Get the input value
-            var inputValue = document.getElementById("textInput").value;
+            let input = document.getElementById("textInput").value;
 
+            let tableArray = input.Split(vbTab.ToCharArray)(2)
             // Process the input (you can replace this with your own processing logic)
-            var processedOutput = "Processed: " + inputValue.toUpperCase();
+            let processedOutput = tableArray
 
             // Display the processed output
             document.getElementById("output").innerText = processedOutput;
