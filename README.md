@@ -35,7 +35,7 @@
     <script>
         function processText() {
             // Get the input value
-            let input = document.getElementById("textInput").value;
+            let input = "" + document.getElementById("textInput").value;
 
             let tableArray = input.Split('\t')
             // Process the input (you can replace this with your own processing logic)
